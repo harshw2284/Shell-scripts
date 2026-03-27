@@ -1,3 +1,14 @@
+<<readme
+
+Create args_demo.sh that:
+
+Prints total number of arguments ($#)
+Prints all arguments ($@)
+Prints the script name ($0)
+
+readme
+
+
 #!/bin/bash
 if [ -z "$1" ] 
 then 
