@@ -1,3 +1,10 @@
+#Create check_number.sh that:
+
+#Takes a number using read
+#Prints whether it is positive, negative, or zero
+
+
+
 #!/bin/bash
 
 read -p "Enter Number :" NUM
