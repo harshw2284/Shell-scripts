@@ -1,3 +1,17 @@
+<<readme
+
+Create install_packages.sh that:
+Defines a list of packages: nginx, curl, wget
+Loops through the list
+Checks if each package is installed (use dpkg -s or rpm -q)
+Installs it if missing, skips if already present
+Prints status for each package
+ Run as root: sudo -i or sudo su
+
+readme
+
+
+
 #!/bin/bash
 
 #package list
