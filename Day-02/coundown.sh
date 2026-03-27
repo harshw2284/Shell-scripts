@@ -1,3 +1,13 @@
+<<readme
+
+Create countdown.sh that:
+Takes a number from the user
+Counts down to 0 using a while loop
+Prints "Done!" at the end
+
+readme
+
+
 #!/bin/bash
 
 read -p "Enter your Number :" num
