@@ -1,3 +1,10 @@
+<<readme
+
+Create for_loop.sh that:
+Loops through a list of 5 fruits and prints each one
+
+readme
+
 #!/bin/bash
 
 
