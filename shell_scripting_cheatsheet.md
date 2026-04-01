@@ -108,7 +108,7 @@ esac
 * in → begin matching
 * pattern) → condition
 * ;; → end of that block
-* * → default
+* "*" → default
 * esac → end (reverse of case)
 
 ---
