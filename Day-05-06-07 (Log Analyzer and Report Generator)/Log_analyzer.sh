@@ -26,7 +26,7 @@ Error_count() {
 
 }
 
-
+#Defining Variables
 critical_line_no=$(grep -ni CRITICAL ${log_dir} | cut -d: -f1)
 time=$(awk '{print -n $1,$2}' ${log_dir})
 critical_line=$(awk '/CRITICAL/ {print}' ${log_dir})
@@ -37,7 +37,6 @@ Critical_count () {
 
     grep -ni "critical" "$log_dir" | while IFS=: read -r critical_line_no line
     do
-        time=$(echo "$line" | awk '{print $2}')
         echo "Line $critical_line_no : $line"
     done
 }
