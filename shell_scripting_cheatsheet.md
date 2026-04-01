@@ -18,7 +18,6 @@ It will help me to organize my understanding and identify gaps.
 ---
 
 ### Quick Reference Table
-Create a summary table like this at the top of your cheat sheet:
 
 | Topic | Key Syntax | Example |
 |-------|-----------|---------|
@@ -50,5 +49,66 @@ To use it : echo "$name"
 * $@ : prints all the arguments
 * $? : Holds exit code of immediately precceding command
 
+---
+
+## Operators and Conditionals
+1. String comparisons :
+* '=' : Equal to
+* '!=' : Not equal to
+* '-z' : To check if string is empty
+* '-n' : String is not empty
+2. Integer comparisons :
+  * '-eq' : Equal to 
+  * '-ne' : Not equal to
+  * '-lt' : less than
+  * '-gt' : greater than
+  * '-le' : less than or equal
+  * '-ge' : greater than or equal
+3. File test operators :
+ * '-f' : is it a regular file?
+ * '-d' : is it a directory?
+ * '-e' : does it exist (anything)?
+ * '-r' : readable?
+ * '-w' : writable?
+ * '-x' : executable?
+ * '-s' : File is not empty
+4. syntax for if , elif , else :
+   ```
+   if [ condition ]
+   then
+    # runs if condition is true
+   elif [ condition ]
+   then
+    # runs if above condition is false and this is true
+   else
+    # runs if all conditions are false
+   fi
+   ```
+5. Logical operators :
+   * '&&' : AND (both conditions must be true)
+   * '||' : OR (any one is true)
+   * '!' : NOT (reverse condition)
+6. Case statements : way to match a value against multiple patterns—cleaner than long if-elif-else chains.
+   * Syntax :
+```
+case "$variable" in
+    pattern1)
+        # commands
+        ;;
+    pattern2)
+        # commands
+        ;;
+    *)
+        # default (like else)
+        ;;
+esac
+```
+🧠 Key parts:
+case → start
+in → begin matching
+pattern) → condition
+;; → end of that block
+* → default
+esac → end (reverse of case)
 
 ---
