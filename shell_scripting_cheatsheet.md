@@ -104,11 +104,11 @@ case "$variable" in
 esac
 ```
 🧠 Key parts:
-case → start
-in → begin matching
-pattern) → condition
-;; → end of that block
-* → default
-esac → end (reverse of case)
+* case → start
+* in → begin matching
+* pattern) → condition
+* ;; → end of that block
+* * → default
+* esac → end (reverse of case)
 
 ---
