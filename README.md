@@ -62,12 +62,6 @@ To become proficient in shell scripting and use it for:
 
 ---
 
-## ✍️ Author
-
-**Harsh Bhagat**
-
----
-
 ## ⭐ Future Improvements
 
 * Add more real-world automation scripts
@@ -76,10 +70,4 @@ To become proficient in shell scripting and use it for:
 
 ---
 
-## 🙌 Note
 
-This is a learning repository, so improvements and updates will be continuous.
-
----
-
-⭐ If you find this helpful, feel free to explore and learn along!
