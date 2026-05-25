@@ -5,4 +5,6 @@
 #print Hello, DevOps! using echo
 #Make it executable and run it
 
+
+#!/bin/bash
 echo "Hello, Devops!"
