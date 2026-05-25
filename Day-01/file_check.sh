@@ -8,7 +8,7 @@
 
 #!/bin/bash
 
-if [ -f $1 ]
+if [ -f $1 ]               #use " if [ -d $1 ] " for directory
 then
 	echo "file exist"
 else 
