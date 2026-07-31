@@ -1,4 +1,4 @@
-# Shell Scripting – Day 02 - Project: Log Rotation, Backup & Crontab
+# Shell Scripting – Day 04 - Project: Log Rotation, Backup & Crontab
 
 Applying everything I learned in real-world mini projects.
 
