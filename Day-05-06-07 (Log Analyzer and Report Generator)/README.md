@@ -1,4 +1,4 @@
-# Shell Scripting – Day 05 - Bash Scripting Challenge: Log Analyzer and Report Generator
+# Shell Scripting – Day 05-06-07 - Bash Scripting Challenge: Log Analyzer and Report Generator
 
 You are a system administrator responsible for managing a network of servers. Every day, a log file is generated on each server containing important system events and error messages. Your job is to analyze these log files, identify specific events, and generate a summary report.
 
