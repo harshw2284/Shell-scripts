@@ -292,6 +292,7 @@ echo "======================================================="
 report > Log_report-$(date +%Y-%m-%d).txt
 
 ```
+---
 
 ### ✅ Task 6 : (Optional): Archive Processed Logs
 
@@ -300,6 +301,7 @@ Add a feature to:
 2. Move the processed log file into `archive/` after analysis
 3. Print a confirmation message
 
+---
 
 **Note**:
 
