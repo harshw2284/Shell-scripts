@@ -161,7 +161,5 @@ fi
 * Read: `read -p "Enter name: " NAME`
 * If syntax: `if [ condition ]; then ... elif ... else ... fi`
 * File check: `if [ -f filename ]; then`
-* `kubectl exec -it <name> -- /bin/sh` gives you a shell (use `/bin/sh` if `/bin/bash` is not available)
-* `--dry-run=client -o yaml` is your best friend for generating manifest templates
 
 ---
