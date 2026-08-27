@@ -61,13 +61,3 @@ To become proficient in shell scripting and use it for:
 * Focus on understanding logic, not just memorizing
 
 ---
-
-## ⭐ Future Improvements
-
-* Add more real-world automation scripts
-* Improve script efficiency and structure
-* Integrate with DevOps tools
-
----
-
-
